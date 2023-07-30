@@ -28,7 +28,7 @@ export const formatDate = (date: Date) : string => {
 export const formatCurrentMonth = (currentMonth : string) : string => {
     const [year,month] = currentMonth.split('-');
     const months = ['Janeiro','Fevereiro','Março','Abriu','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
-    return `${months[parseInt(month - 1)]} de ${year}`
+    return `${months[parseInt(month)-1]} de ${year}`
 }
 const addZeroToDate = (number : number) : string =>  number < 10 ? `0${number}` : `${number}`;
 
