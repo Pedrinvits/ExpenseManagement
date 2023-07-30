@@ -1,0 +1,10 @@
+:root {
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
